@@ -10,8 +10,8 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
   encapsulation: ViewEncapsulation.None,
 })
 export class NavComponent implements OnInit {
-  logoImage: string = "/assets/images/logo.svg"
-  profileImage: string = "/assets/images/image-avatar.png"
+  logoImage: string = "assets/images/logo.svg"
+  profileImage: string = "assets/images/image-avatar.png"
 
 
 

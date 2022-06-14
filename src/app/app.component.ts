@@ -8,7 +8,7 @@ import {DatasService} from "./datas.service";
 })
 export class AppComponent {
   title = 'eCommercePage2';
-  cartIcone = "/assets/icons/cart.svg"
+  cartIcone = "assets/icons/cart.svg"
 
 
   constructor(public service: DatasService) {

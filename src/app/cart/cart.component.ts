@@ -7,7 +7,7 @@ import {DatasService} from "../datas.service";
   styleUrls: ['./cart.component.scss']
 })
 export class CartComponent implements OnInit {
-  cartImage: string = "/assets/images/icon-cart.svg"
+  cartImage: string = "assets/images/icon-cart.svg"
   constructor(public service: DatasService) { }
 
   ngOnInit(): void {
