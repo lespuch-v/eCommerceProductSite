@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {DatasService} from "./datas.service";
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'eCommercePage2';
+  cartIcone = "/assets/icons/cart.svg"
+
+
+  constructor(public service: DatasService) {
+  }
 }

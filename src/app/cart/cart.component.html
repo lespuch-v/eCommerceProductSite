@@ -1,0 +1,7 @@
+<main>
+  <div (click)="service.cartHandleClick()" class="countModal">{{service.counter}}</div>
+  <img (click)="service.cartHandleClick()" class="image-cart" [src]="cartImage" alt="cart-icon">
+  <div *ngIf="service.isModalActive" class="cart-modal">
+    Cart... Im too lazy to work on this....
+  </div>
+</main>

@@ -1,0 +1,43 @@
+.image-cart{
+  margin: 10px;
+  width: 30px;
+  transition: all 150ms;
+  cursor: pointer;
+}
+.image-cart:hover{
+  transform: scale(1.1);
+}
+
+.countModal{
+  width: 30px;
+  background-color: orange;
+  position: absolute;
+  transform: translate(23px, 3px);
+  border-radius: 30px;
+  text-align: center;
+  color: white;
+  transition: all 150ms;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.cart-modal{
+  width: 400px;
+  height: 300px;
+  position: absolute;
+  transform: translate(-280px, 3px);
+  background-color: lightblue;
+}
+
+
+@media only screen and (max-width: 800px) {
+  .cart-modal{
+    position: absolute;
+    transform: translate(-350px, 20px);
+    margin: 0 auto;
+    flex-direction: column;
+  }
+}
+main{
+  margin-right: 20px;
+}

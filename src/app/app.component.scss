@@ -1,0 +1,137 @@
+$round-corners: 10px;
+.main-body{
+  max-width: 1100px;
+  height: 70px;
+  margin: 0 auto;
+}
+.second-container{
+  //background-color: #3f88a4;
+  max-width: 1100px;
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.left-side{
+  width: 500px;
+  height: 500px;
+  //background-color: lightpink;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+}
+.right-side{
+  max-width: 450px;
+  height: 500px;
+  //background-color: darkseagreen;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px;
+}
+.main-image{
+  width: 400px;
+  border-radius: $round-corners;
+}
+.mini-images{
+  width: 70px;
+  margin: 10px;
+  cursor: pointer;
+  transition: 150ms all;
+  border-radius: $round-corners;
+}
+.mini-images:hover{
+  transform: scale(1.05);
+}
+.right-side-mini-title{
+  color: hsl(26, 100%, 55%);
+  font-weight: bolder;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0;
+}
+.right-side-title{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+}
+.price-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.price-container p{
+  margin: 10px;
+  background-color: #FDEEE1;
+  color: #ff8d29;
+  font-weight: bolder;
+  padding: 5px;
+  border-radius: 5px;
+}
+/*.price-container h1{
+  margin-bottom: 10px;
+}*/
+.price-behore-sale{
+  margin: 0;
+  padding: 10px 0;
+  text-decoration: line-through;
+  color: grey;
+}
+.btn-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+  background-color: #e5e5e5;
+  border: none;
+  width: 90px;
+  height: 20px;
+  border-radius: 15px;
+}
+.btn-count{
+  border: none;
+  font-weight: bolder;
+  background-color: #e5e5e5;
+  cursor: pointer;
+  color: #ffa051;
+  font-size: 1.5em;
+}
+.btn-count-grey{
+  padding: 20px;
+  font-weight: bolder;
+  border: none;
+  border-radius: 20px;
+  background-color: #e5e5e5;
+}
+.btn-add-to-cart{
+  background-color: #ff8d29;
+  width: 100%;
+  border: none;
+  border-radius: 20px;
+  margin-left: 20px;
+  color: white;
+  font-size: 1.1em;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 250ms all;
+  cursor: pointer;
+}
+.btn-add-to-cart:hover{
+  transform: scale(1.03);
+}
+.btn-add-to-cart img{
+  padding-right: 20px;
+  color: white;
+}
+.align-right{
+  display: flex;
+  flex-direction: row;
+
+}
